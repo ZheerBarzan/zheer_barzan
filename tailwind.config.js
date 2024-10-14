@@ -1,3 +1,5 @@
+const { Weight } = require('lucide-react');
+
 /** @type {import('tailwindcss').Config} */
 module.exports = {
     darkMode: ["class"],
@@ -14,10 +16,15 @@ module.exports = {
 		xl: '1280px',
 		
 	},
+	fontFamily: {
+		primary: 'var(--font-poppins)',
+
+	},
   	extend: {
   		colors: {
-  			background: 'var(--background)',
-  			foreground: 'var(--foreground)'
+  			primary: '#000000',
+  			background: '#ffffff',
+			hover: '#808080',
   		},
   		borderRadius: {
   			lg: 'var(--radius)',
